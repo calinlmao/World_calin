@@ -306,15 +306,15 @@ namespace Server
 
 		public static bool S_PedStealThrottle = true;
 
-	// If set to true, then a character will get a warning before they are entering Skara Brae. This area is a
+	// If set to true (default), then a character will get a warning before they are entering Skara Brae. This area is an extensive
 	// quest driven area, that has some quest requirements to be met before they can leave that area.
 
-		public static bool S_WarnSkaraBrae = false;
+		public static bool S_WarnSkaraBrae = true;
 
-	// If set to true, then a character will get a warning before they are entering the Bottle City. This area
-	// is a quest driven area, that has some quest requirements to be met before they can leave that area.
+	// If set to true (default), then a character will get a warning before they are entering the Bottle City. This area
+	// is an extensive quest driven area, that has some quest requirements to be met before they can leave that area.
 
-		public static bool S_WarnBottleCity = false;
+		public static bool S_WarnBottleCity = true;
 
 
 
@@ -737,7 +737,7 @@ namespace Server
 		public static double S_KoperHerdingChance = 1.0;
 
 	// The KoperCooldown sets the minimum amount of time in seconds between taming/herding skill gain
-	// from fighting for taming, and commanding pets for herding. Minimum is 0, max is 600
+	// from fighting for taming, and commanding pets for herding. Minimum is 0, max is 600, default is 20.
 
 		public static int S_KoperCooldown = 20;
 
